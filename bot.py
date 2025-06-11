@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, MessageHandler, filters, CallbackQu
 from gpt import *
 from util import *
 
-TELEGRAM_CHATBOT_TOKEN = "7776004057:AAHsozoY2O4LKQXQ3e9lS78TrnhvJfdzgLg"
+TELEGRAM_CHATBOT_TOKEN = "TOKEN"
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
